@@ -1,6 +1,8 @@
 /* Definindo estilos para o meu novo sistema */
 
-.bloco { width: 535px; background-color: #ccc; margin: auto; }
+.bloco { width: 535px; background-color: #ccc; border: 2px solid #000 ; border-radius: 5px; margin: auto; padding: 10px; }
+
+h1 { font-family: 'Arial, Helvetica, sans-serif'; font-size: 20px; }
 
 .blocoM { background-color: #fafaaf; }
 
