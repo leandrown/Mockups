@@ -14,26 +14,26 @@
         <h2>Dados Pessoais</h2>
         <fieldset>
             <label for="txtCodigo">Código de cadastro:</label>
-            <input type="text" name="txtCodigo" disabled="true" value="001" />
+            <input type="text" id="txtCodigo" name="txtCodigo" disabled value="001" />
             <label for="txtPnome">Nome completo:</label>
-            <input type="text" name="txtNome" maxlength="80" />
+            <input type="text" id="txtNome" name="txtNome" maxlength="80" />
             <label for="txtEndereco">Endereço:</label>
-            <input type="email" name="txtEndereco" maxlength="120" />
+            <input type="email" id="txtEndereco" name="txtEndereco" maxlength="120" />
             <label for="txtCep">CEP:</label>
-            <input type="text" name="txtCep" />
+            <input type="text" id="txtCep" name="txtCep" />
             <label for="txtBairro">Bairro:</label>
-            <input type="text" name="txtBairro" maxlenght="50" />    
+            <input type="text" id="txtBairro" name="txtBairro" maxlenght="50" />    
             <label for="txtCidade">Cidade:</label>
-            <input type="text" name="txtCidade" maxlength="80" />    
+            <input type="text" id="txtCidade" name="txtCidade" maxlength="80" />    
             <label for="selEstado">Estado:</label>
-            <select name="selEstado">
+            <select id="selEstado" name="selEstado">
                 <option value="sp">SP</option>
                 <option value="rj">RJ</option>
                 <option value="mg">MG</option>
                 <option value="es">ES</option>
             </select>
-        <label for="optEcivil">Estado civil:</label>
-        <select>
+        <label for="optEstadoCivil">Estado civil:</label>
+        <select id="optEstadoCivil" name="optEstadoCivil" >
             <option value="solteiro">Solteiro</option>
             <option value="casado">Casado</option>
             <option value="desquitado">Desquitado</option>
@@ -43,44 +43,46 @@
         </fieldset>
         <h2>Documentos</h2>
         <label for="txtRG">RG:</label>
-        <input type="text" name="txtRG" />
-        <label for="txtOemissor">Órgão emissor:</label>
-        <input type="text" name="txtOemissor" />
+        <input type="text" id="txtRg" name="txtRg" />
+        <label for="txtOrgaoEmissor">Órgão emissor:</label>
+        <input type="text" id="txtOrgaoEmissor" name="txtOrgaoEmissor" />
         <label for="txtCPF">CPF:</label>
-        <input type="text" name="txtCPF" />
+        <input type="text" id="txtCpf" name="txtCpf" />
         <h3>Contatos</h3>
         <p>
             <label for="txtTelefone">Telefone:</label>
-            <input type="tel" name="txtTelefone" />
+            <input type="tel" id="txtTelefone" name="txtTelefone" />
             <label for="txtCelular">Celular:</label>
-            <input type="tel" name="txtCelular" />
+            <input type="tel" id="txtCelular" name="txtCelular" />
             <label for="txtEmail">E-mail:</label>
-            <input type="email" name="txtEmail" />
+            <input type="email" id="txtEmail" name="txtEmail" />
         </p>
         <h3>Dados Empresariais</h3>
         <p>
-            <label for="txtRsocial">Razão social:</label>
-            <input type="text" name="txtRsocial" />
+            <label for="txtRazaoSocial">Razão social:</label>
+            <input type="text" id="txtRazaoSocial" name="txtRazaoSocial" />
             <label for="txtCnpj">CNPJ:</label>
-            <input type="text" name="txtCnpj" />    
-            <label for="">Banco:</label>
-            <input type="" name="" />
-            <label for="">Agência:</label>
-            <input type="" name="" />
-            <label for="">Conta corrente:</label>
-            <input type="" name="" />
-            <label for="">Observações:</label>
-            <textarea></textarea>
+            <input type="text" id="txtCnpj" name="txtCnpj" />
+            <label for="txtBanco">Banco:</label>
+            <input type="text" id="txtBanco" name="txtBanco" />
+            <label for="txtAgencia">Agência:</label>
+            <input type="text" id="txtAgencia" name="txtAgencia" />
+            <label for="txtContaCorrente">Conta corrente:</label>
+            <input type="text" id="txtContaCorrente" name="txtContaCorrente" />
+            <label for="txtObs">Observações:</label>
+            <textarea id="txtObs" name="txtObs"></textarea>
         </p>
         <h4>Para o RH</h4>
-        <label for="">Data da contratação:</label>
-        <input type="" name="" />
-        <label for="">Data de demissão:</label>
-        <input type="" name="" />
-        <label for="">Cargo:</label>
-        <input type="" name="" />
-        <label for="">Setor:</label>
-        <input type="" name="" />
+        <label for="txtDataContratacao">Data da contratação:</label>
+        <input type="date" id="txtDataConstratacao" name="txtDataContratacao" />
+        <label for="txtDataDemissao">Data de demissão:</label>
+        <input type="date" id="txtDataDemissao" name="txtDataDemissao" />
+        <label for="txtCargo">Cargo:</label>
+        <input type="text" id="txtCargo" name="txtCargo" />
+        <label for="txtSetor">Setor:</label>
+        <input type="text" id="txtSetor" name="txtSetor" />
+        <input type="reset" value="Limpar campos" />
+        <input type="submit" value="Enviar dados" />
     </form>
     </section>
 </body>
