@@ -8,11 +8,11 @@
 
 body { background-color: #d9d9d9; }
 
-h1 { font-family: 'Lantinghei TC', serif; font-size: 3.1em; font-weight: lighter; width: 520px; float: left; }
+h1 { font-family: 'Lantinghei TC', serif; font-size: 3.1em; font-weight: lighter; width: 520px; }
 
 h2 { font-size: 2em; width: 400px; }
 
-p { font-family: Helvetica, serif; font-size: 1em; width: 410px; float: left; }
+p { font-family: Helvetica, serif; font-size: 1em; width: 410px; }
 
 /* Área do logotipo */
 #logo { background: url('logo.png') no-repeat; width: 182px; height: 60px; margin: 5px 25px; float: left; }
@@ -50,6 +50,39 @@ p { font-family: Helvetica, serif; font-size: 1em; width: 410px; float: left; }
 .corpoPrincipal { width: 900px; min-height: 485px; margin: auto; }
 
 .corpoInferior { background-color: #ffffff; width: 900px; height: 375px; border-top: 5px solid #373435; margin: auto; }
+
+/* Botões */
+.botaoGrande {
+    background: #56b6d9;
+    width: 160px;
+    height: 46px;
+    border-radius: 4px;
+    font-family: Helvetica, Arial, serif;
+    font-size: 1.05em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.8em;
+    color: #fff;
+    position: relative;
+    float: left;
+    vertical-align: bottom;
+}
+
+.botaoPequeno {
+    background: #9baa33;
+    width: 120px;
+    height: 33px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-family: Helvetica, Arial, serif;
+    font-size: 0.2em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
 
 .corpoInferiorRodape { background: url('textura_v2.png') repeat; width: 900px; height: 134px; border-top: 5px solid #d9d9d9; margin: auto; }
 
