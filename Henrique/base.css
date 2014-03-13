@@ -10,7 +10,14 @@ body { background-color: #d9d9d9; }
 
 h1 { font-family: 'Lantinghei TC', Arial, serif; font-size: 3.1em; font-weight: lighter; position: relative; margin-top: 100px; float: left; }
 
-h2 { font-size: 2em; width: 400px; }
+h2 {
+    font-family: 'Andale Mono', 'Trebuchet MS', Helvetica, serif;
+    font-size: 1.4em;
+    font-weight: lighter;
+    position: relative;
+    float: left;
+    letter-spacing: -0.15em;
+}
 
 p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; width: 410px; position: relative; margin: 20px auto; float: left; }
 
@@ -56,15 +63,27 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; 
 
 .corpoTexto { width: 500px; min-width: 520px; min-height: 448px; position: relative; float: left; }
 
-.corpoInferior { background-color: #ffffff; width: 900px; height: 375px; border-top: 5px solid #373435; margin: auto; }
+.corpoInferior { background-color: #ffffff; width: 900px; height: 235px; border-top: 5px solid #373435; margin: auto; }
 
-.conteudoTexto {
-    width: 350px;
+.corpoInferiorRodape {
+    background: url('textura_v2.png') repeat;
+    width: 900px;
+    height: 134px;
+    border-top: 5px solid #d9d9d9;
+    margin: auto;
     position: relative;
     float: left;
 }
 
-.conteudoTexto p { font-family: Helvetica, Arial, serif; font-size: 0.7em; font-weight: normal; text-align: justify; }
+.conteudoTexto {
+    width: 400px;
+    min-height: 160px;
+    position: relative;
+    float: left;
+    margin: 22px;
+}
+
+.conteudoTexto > p { font-family: Helvetica, Arial, serif; font-size: 0.75em; text-align: left; margin: auto; margin: 15px auto; }
 
 /* Botões */
 .botaoGrande {
@@ -90,22 +109,31 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; 
     background: #9baa33;
     width: 120px;
     height: 33px;
-    padding: 5px 10px;
     border-radius: 4px;
     font-family: Helvetica, Arial, serif;
-    font-size: 0.2em;
+    font-size: 0.8em;
     font-weight: lighter;
     text-transform: uppercase;
+    text-align: center;
     text-decoration: none;
+    line-height: 2.8em;
     color: #fff;
+    position: relative;
+    float: left;
+    vertical-align: bottom;
+    margin-left: 280px;
 }
 
-.corpoInferiorRodape {
-    background: url('textura_v2.png') repeat;
-    width: 900px;
-    height: 134px;
-    border-top: 5px solid #d9d9d9;
-    margin: auto;
+.barraDivisoria {
+    font-family: Helvetica, Arial, serif;
+    font-size: 20px;
+    color: #a7a7a7;
+    line-height: 0.4em;
+    width: 10px;
+    min-height: 150px;
+    position: relative;
+    float: left;
+    margin: 18px auto;
 }
 
 /* Definindo o rodapé e seus elementos
