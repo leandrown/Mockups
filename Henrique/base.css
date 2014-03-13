@@ -8,11 +8,11 @@
 
 body { background-color: #d9d9d9; }
 
-h1 { font-family: 'Lantinghei TC', Arial, serif; font-size: 3.1em; font-weight: lighter; float: left; }
+h1 { font-family: 'Lantinghei TC', Arial, serif; font-size: 3.1em; font-weight: lighter; position: relative; margin-top: 100px; float: left; }
 
 h2 { font-size: 2em; width: 400px; }
 
-p { font-family: Helvetica, Arial, serif; font-size: 1em; float: left; }
+p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; width: 410px; position: relative; margin: 20px auto; float: left; }
 
 /* Área do logotipo */
 #logo { background: url('logo.png') no-repeat; width: 182px; height: 62px; margin: 10px 25px; float: left; }
@@ -38,9 +38,13 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; float: left; }
     margin-right: 5px;
 }
 
+#menuSuperior ul li a:hover {
+    text-shadow: 0px 0px 5px #56b6d9;
+}
+
 .fundoEscuro { width: 100%; height: 100%; }
 
-.banner { background: url('banner.png') no-repeat; width: 368px; height: 448px; float: right; }
+.banner { background: url('banner.png') no-repeat; width: 368px; min-height: 448px; position: relative; float: left; }
 
 /* Definindo o cabeçalho */
 .cabecalho { background: #fff; width: 100%; min-height: 70px; }
@@ -48,11 +52,19 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; float: left; }
 .corpoCabecalho { width: 900px; height: 70px; margin: auto; position: relative; }
 
 /* Criando o corpo */
-.corpoPrincipal { width: 900px; min-height: 485px; margin: auto; }
+.corpoPrincipal { width: 900px; min-height: 448px; margin: 40px auto 0 auto; clear: both; }
 
-.corpoTexto { width: 500px; background: yellow; }
+.corpoTexto { width: 500px; min-width: 520px; min-height: 448px; position: relative; float: left; }
 
 .corpoInferior { background-color: #ffffff; width: 900px; height: 375px; border-top: 5px solid #373435; margin: auto; }
+
+.conteudoTexto {
+    width: 350px;
+    position: relative;
+    float: left;
+}
+
+.conteudoTexto p { font-family: Helvetica, Arial, serif; font-size: 0.7em; font-weight: normal; text-align: justify; }
 
 /* Botões */
 .botaoGrande {
@@ -71,6 +83,7 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; float: left; }
     position: relative;
     float: left;
     vertical-align: bottom;
+    margin-left: 230px;
 }
 
 .botaoPequeno {
