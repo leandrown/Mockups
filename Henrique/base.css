@@ -22,7 +22,10 @@ h2 {
 p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; width: 410px; position: relative; margin: 20px auto; float: left; }
 
 /* Área do logotipo */
-#logo { background: url('logo.png') no-repeat; width: 182px; height: 62px; margin: 10px 25px; float: left; }
+#logo { background: url('logo.png') no-repeat; width: 182px; height: 62px; margin: 10px 25px; position: relative; float: left; }
+
+/* Créditos do site */
+#creditos { margin: 0px; max-height: 30px; position: relative; float: left; }
 
 /* Definindo os menus superior e inferior */
 #menuSuperior ul {
@@ -58,16 +61,14 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; 
     line-height: 3em;
 }
 
-#menuinferior ul li { display: inline; }
+#menuInferior ul li { display: inline; }
 
 #menuInferior ul li a {
-    font-family: 'Lucida Grande', serif;
-    font-size: 0.8em;
     padding: 2px 10px;
     float: left;
     color: #484546;
     text-decoration: none;
-    margin-right: 5px;
+    text-transform: uppercase;
 }
 
 #menuInferior ul li a:hover {
@@ -172,13 +173,15 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; 
         12px = 0.7eem (12 / 16 = 0.75)
         22px = 1.375em (22 / 16 = 1.375)
 */
-.rodape { width: 100%; min-height: 65px; margin: auto; }
+.rodape { width: 100%; min-height: 150px; margin: auto; position: relative; float: left; }
 
-.rodapeCorpo {
+.corpoRodape {
     background: yellow;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 0.6em;
     line-height: 65px;
     max-width: 900px;
-    margin: 0 auto;
+    height: 70px;
+    margin: auto;
+    position: relative;
 }
