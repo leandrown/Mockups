@@ -24,10 +24,8 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; 
 /* Área do logotipo */
 #logo { background: url('logo.png') no-repeat; width: 182px; height: 62px; margin: 10px 25px; position: relative; float: left; }
 
-/* Créditos do site */
-#creditos { margin: 0px; max-height: 30px; position: relative; float: left; }
 
-/* Definindo os menus superior e inferior */
+/* Definindo os menus superior */
 #menuSuperior ul {
     padding: 0px;
     margin: 10px;
@@ -52,28 +50,6 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; 
     text-shadow: 0px 0px 5px #56b6d9;
 }
 
-/* Menu Inferior - rodape */
-#menuInferior ul {
-    padding: 0px;
-    margin: 10px;
-    float: right;
-    list-style: none;
-    line-height: 3em;
-}
-
-#menuInferior ul li { display: inline; }
-
-#menuInferior ul li a {
-    padding: 2px 10px;
-    float: left;
-    color: #484546;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-#menuInferior ul li a:hover {
-    text-shadow: 0px 0px 5px #56b6d9;
-}
 /* -------------------------------------- */
 
 
@@ -176,12 +152,36 @@ p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; 
 .rodape { width: 100%; min-height: 150px; margin: auto; position: relative; float: left; }
 
 .corpoRodape {
-    background: yellow;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 0.6em;
-    line-height: 65px;
     max-width: 900px;
     height: 70px;
     margin: auto;
     position: relative;
+}
+
+/* Créditos do site */
+#creditos { margin: 0px; height: 40px; line-height: 40px; position: relative; float: left; }
+
+/* Menu Inferior - rodape */
+#menuInferior ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    list-style: none;
+    line-height: 3em;
+}
+
+#menuInferior ul li { display: inline; }
+
+#menuInferior ul li a {
+    padding: 10px 0 2px 8px;
+    float: left;
+    color: #484546;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menuInferior ul li a:hover {
+    text-shadow: 0px 0px 5px #56b6d9;
 }
