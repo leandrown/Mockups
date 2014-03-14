@@ -21,6 +21,10 @@ h2 {
 
 p { font-family: Helvetica, Arial, serif; font-size: 1em; font-weight: lighter; width: 410px; position: relative; margin: 20px auto; float: left; }
 
+img { width: 120px; height: 83px; margin: 15px 5px; padding: 10px; border: 0; position: relative; float: left; }
+
+img:hover { border: #c9c9c9 2px solid; padding: 2px; }
+
 /* Área do logotipo */
 #logo { background: url('logo.png') no-repeat; width: 182px; height: 62px; margin: 10px 25px; position: relative; float: left; }
 
