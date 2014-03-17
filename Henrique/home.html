@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
 	<meta author="Leandro Vieira">
-    <link rel="stylesheet" type="text/css" href="base.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="base.css" media="screen, projection">
+    <!--[if lte IE 7]>
+        <link rel="stylesheet" href='ie_fixes.css' type="text/css" media="screen, projection" />
+    <![endif]-->
     <title>::: Put Your Logo Here :::</title>
 </head>
 <body>
@@ -39,29 +42,31 @@
     </section>
 
     <section class="corpoInferior">
-        <section class="conteudoTexto">
+        <article class="conteudoTexto">
             <h2>Event Title Goes Here</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dolor eros, varius sollicitudin porta ut, pellentesque at quam. Sed ac accumsan nunc. Donec sed leo quam, sed aliquet metus. Vivamus pulvinar rutrum placerat. Etiam convallis ullamcorper fringilla. Mauris sodales leo non nulla posuere venenatis.</p>
             <a href="#" target="_self" class="botaoPequeno">Read more</a>
-        </section>
+        </article>
         
         <!-- Divisoria entre o conteúdo /-->
-        <!-- CORRIGIR /-->
-        <section class="barraDivisoria">. . . . . . . . . . . . . . . . . . . .</section>
+        <div class="barraDivisoria">. . . . . . . . . . . . . . . . . . . .</div>
         
-        <section class="conteudoTexto">
+        <article class="conteudoTexto">
             <h2>Event Title Goes Here</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dolor eros, varius sollicitudin porta ut, pellentesque at quam. Sed ac accumsan nunc. Donec sed leo quam, sed aliquet metus. Vivamus pulvinar rutrum placerat. Etiam convallis ullamcorper fringilla. Mauris sodales leo non nulla posuere venenatis.</p>
             <a href="#" target="_self" class="botaoPequeno">Read more</a>
-        </section>
+        </article>
 
+        <!-- Hoverbox /-->
         <section class="corpoInferiorRodape">
-            <img src="Slice-1.png" alt="Click here!" />
-            <img src="Slice-2.png" alt="Click here!" />
-            <img src="Slice-3.png" alt="Click here!" />
-            <img src="Slice-4.png" alt="Click here!" />
-            <img src="Slice-5.png" alt="Click here!" />
-            <img src="Slice-6.png" alt="Click here!" />
+            <ul class="hoverbox">
+                <li><a href="#"><img src="Slice-1.png" alt="Click here!" /><img src="Slice-1.png" alt="Click here!" class="preview" /></a></li>
+                <li><a href="#"><img src="Slice-2.png" alt="Click here!" /><img src="Slice-2.png" alt="Click here!" class="preview" /></a></li>
+                <li><a href="#"><img src="Slice-3.png" alt="Click here!" /><img src="Slice-3.png" alt="Click here!" class="preview" /></a></li>
+                <li><a href="#"><img src="Slice-4.png" alt="Click here!" /><img src="Slice-4.png" alt="Click here!" class="preview" /></a></li>
+                <li><a href="#"><img src="Slice-5.png" alt="Click here!" /><img src="Slice-5.png" alt="Click here!" class="preview" /></a></li>
+                <li><a href="#"><img src="Slice-6.png" alt="Click here!" /><img src="Slice-6.png" alt="Click here!" class="preview" /></a></li>
+            </ul>
         </section>
 
     </section>
@@ -71,7 +76,7 @@
         
             <div id="creditos">&copy; 2014 Leandro VIEIRA | Todos os direitos reservados.</div>
 
-            <!-- CORRIGIR /-->
+            <!-- Menu Inferior /-->
             <nav id="menuInferior">
                 <ul>
                     <li><a href="#" target="_self">Home</a>
