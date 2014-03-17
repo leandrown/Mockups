@@ -47,6 +47,7 @@ img:hover { border: #c9c9c9 2px solid; padding: 2px; }
     float: left;
     color: #484546;
     text-decoration: none;
+    text-transform: uppercase;
     margin-right: 5px;
 }
 
@@ -113,6 +114,8 @@ img:hover { border: #c9c9c9 2px solid; padding: 2px; }
     margin-left: 230px;
 }
 
+.botaoGrande:hover { background: #fafafa; color: #cccccc; border: #56b6d9 1px solid; }
+
 .botaoPequeno {
     background: #9baa33;
     width: 120px;
@@ -131,6 +134,8 @@ img:hover { border: #c9c9c9 2px solid; padding: 2px; }
     vertical-align: bottom;
     margin-left: 280px;
 }
+
+.botaoPequeno:hover { background: #fafafa; color: #cccccc; border: #9baa33 1px solid; }
 
 .barraDivisoria {
     font-family: Helvetica, Arial, serif;
