@@ -175,21 +175,23 @@ img:hover { border: #c9c9c9 2px solid; padding: 2px; }
 /* Menu Inferior - rodape */
 #menuInferior ul {
     padding: 0;
-    margin: 0;
+    margin: 10px 0;
     float: right;
     list-style: none;
-    line-height: 3em;
 }
 
 #menuInferior ul li { display: inline; }
 
 #menuInferior ul li a {
-    padding: 10px 0 2px 8px;
+    padding:0 5px;
     float: left;
     color: #484546;
     text-decoration: none;
     text-transform: uppercase;
+    border-right: #000 1px solid;
 }
+
+#menuInferior ul li a:last-child { border: none; }
 
 #menuInferior ul li a:hover {
     text-shadow: 0px 0px 5px #56b6d9;
